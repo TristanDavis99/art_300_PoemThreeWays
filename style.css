@@ -1,0 +1,113 @@
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color:black;
+    height: 258px;
+    width: 100vw;
+    color: white;
+    padding-left: 50px;
+}
+.title{
+    margin: 0;
+    padding-top: 50px;
+    font-size: 100pt;
+    right: 100px;
+}
+.author{
+    margin-top: -25px;
+    padding: 0;
+    font-size: 10pt;
+}
+.poem{
+    padding-left: 50px;
+    font-size: 15pt;
+}
+.highlight{
+    background-color: black;
+    color: white;
+    font-size: 15pt;
+}
+
+
+/* ----------- TABLETS ----------- */
+ 
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+    body {
+        background-color: white;
+        padding: 0;
+        margin: 0;
+    }
+    .header{
+        background-color: black;
+        color: white;
+        transform: rotate(90deg);
+        transform-origin: bottom left;
+        position: fixed;
+        top: -30vw;
+        left: 70vw;
+        height: 30vw;
+        width: 100vh;
+        padding-left: 25px;
+    }
+    .title{
+        margin: 0;
+        padding-top: 50px;
+        //padding-bottom: 50px;
+        font-size: 90pt;
+        right: 100px;
+
+    }
+    .author{
+        margin-top: -25px;
+        padding: 0;
+        font-size: 10pt;
+    }
+}
+
+/* ----------- SMART PHONES ----------- */
+ 
+ 
+@media only screen and (max-width: 800px){
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: black;
+    color: white;
+    transform: rotate(90deg);
+    transform-origin: bottom left;
+    position: fixed;
+    top: -20vw;
+    left: 80vw;
+    height: 20vw;
+    width: 100vh;
+    padding-left: 20px;
+}
+.poem{
+    padding-left: 50px;
+    font-size: 15pt;
+    color: white;
+}
+.highlight{
+    background-color: white;
+    color: black;
+    font-size: 15pt;
+}
+.title{
+    margin: 0;
+    padding-top: 50px;
+    font-size: 90pt;
+    right: 100px;
+}
+.author{
+    margin-top: -25px;
+    padding: 0;
+    font-size: 10pt;
+}
+}
+
